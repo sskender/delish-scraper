@@ -91,4 +91,16 @@ async function scrapeRecipe(url) {
 }
 
 
+/**
+ * Scrape all recipe data from
+ * full url path on delish page
+ * and put it into a new Recipe mongoose model.
+ *
+ * @param {*} url full url path
+ */
+async function scrapeRecipeModel(url) {
+
+}
+
+
 exports.scrapeRecipe = scrapeRecipe;
