@@ -15,3 +15,10 @@ scraper.scrapeRecipe(url)
 
 
 // get scraped recipe database model
+scraper.scrapeRecipeModel(url)
+    .then((recipe) => {
+        console.log(recipe);
+    })
+    .catch((err) => {
+        console.error(err);
+    });
