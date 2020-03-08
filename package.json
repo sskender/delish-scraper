@@ -1,0 +1,20 @@
+{
+  "name": "delish-scraper",
+  "version": "1.0.0",
+  "description": "Scrape recipes from www.delish.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sskender/delish-scraper.git"
+  },
+  "author": "sskender",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sskender/delish-scraper/issues"
+  },
+  "homepage": "https://github.com/sskender/delish-scraper#readme"
+}
