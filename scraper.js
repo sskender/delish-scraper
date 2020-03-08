@@ -1,6 +1,8 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 
+const Recipe = require('./model/recipe');
+
 
 /**
  * Scrape all recipe data from
@@ -100,7 +102,14 @@ async function scrapeRecipe(url) {
  */
 async function scrapeRecipeModel(url) {
 
+    let scrapedRecipe = await scrapeRecipe(url);
+    let recipe = new Recipe(scrapedRecipe);
+
+    return recipe;
 }
 
 
-exports.scrapeRecipe = scrapeRecipe;
+module.exports = {
+    scrapeRecipe: scrapeRecipe,
+    scrapeRecipeModel: scrapeRecipeModel
+}
