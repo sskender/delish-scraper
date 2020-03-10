@@ -2,7 +2,7 @@
 Scrape recipes from www.delish.com
 
 
-### Scrape recipe from url and get JSON back:
+#### Scrape recipe from url and get JSON back:
 ```javascript
 const scraper = require('./scraper');
 
@@ -43,7 +43,7 @@ Response:
 ```
 
 
-### Scrape recipe from url and get Mongo schema back:
+#### Scrape recipe from url and get Mongo schema back:
 ```javascript
 const scraper = require('./scraper');
 
