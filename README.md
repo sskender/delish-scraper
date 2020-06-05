@@ -16,7 +16,7 @@ scraper.scrapeRecipe(url)
 ```
 
 Response:
-```json
+```javascript
 {
   originUrl: 'https://www.delish.com/cooking/recipe-ideas/recipes/a52422/brunch-punch-recipe/',
   title: 'Brunch Punch',
@@ -62,7 +62,7 @@ scraper.scrapeRecipeModel(url)
 ```
 
 Response:
-```json
+```javascript
 {
   ingredients: [
     'ice',
